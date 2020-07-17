@@ -124,7 +124,7 @@ class TMCM_1161():
         return self.getAxisParameter(self.APs.DrvStatusFlags)
 
     def getErrorFlags(self):
-        return self.getAxisParameter(self.APs.ExtendedErrorFlags)
+        return self.getAxisParameter(self.APs.extendedErrorFlags)
 
     def positionReached(self):
         return self.getAxisParameter(self.APs.PositionReachedFlag)
